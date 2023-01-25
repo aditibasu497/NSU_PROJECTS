@@ -1,3 +1,5 @@
+// VACCINATION MANAGEMENT SYSTEM_CSE115_FIRST PROJECT_SPRING 2022
+
 #include<stdio.h>
 #include<time.h>
 #include<string.h>
@@ -82,7 +84,7 @@ void HEADMESSAGE(const char *message)  //It prints the message on the top of the
     printf("\n\t\t\t----------------------------------------------------------------------------");
 }
 void welcomeMessage()  /*This function displays the first welcomes screen of the
-                               ìWelcome to Vaccination Management systemî and asks the user to press any key to access the library application*/
+                               ‚ÄúWelcome to Vaccination Management system‚Äù and asks the user to press any key to access the library application*/
 {
     printf("\n\n\n\n\n");
     printf("\n\t\t\t  **-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**\n");
@@ -693,7 +695,7 @@ int isFileExists(const char *path)   /*This function verifies that a file has be
     return status;
 }
 void init()     /*This function creates the file if not exist and copies the
-                    default password (ìpasswordî) in file header structure.*/
+                    default password (‚Äúpassword‚Äù) in file header structure.*/
 {
     FILE *fp = NULL;
     int status = 0;
